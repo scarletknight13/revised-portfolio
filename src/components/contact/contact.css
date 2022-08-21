@@ -8,7 +8,8 @@ form{
     gap: 1.2rem;
 }
 input, textarea{
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     padding: 0.5rem;
     font-size: 15pt;
     border-radius: 0.5rem;
@@ -17,9 +18,18 @@ input, textarea{
     resize: none;
     color: var(--color-white);
 }
+.send-btn{
+    margin-left: 10%;
+}
 @media screen and (max-width: 1024px){
     .container.contact-container{
         gap: 2rem
+    }
+    input, textarea{
+        width: 100%;
+    }
+    .send-btn{
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 600px){
