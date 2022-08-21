@@ -9,8 +9,8 @@ function Nav() {
     <nav>
       <a href="#home" onClick={(e) => setActiveNav('#home')} className={activeNav === '#home' ? 'active' : ''}><AiOutlineHome/></a>
       <a href="#about" onClick={(e) => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
-      <a href="#experience" onClick={(e) => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><CgWorkAlt/></a>
-      <a href="#portfolio" onClick={(e) => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineProject/></a>
+      <a href="#experience" onClick={(e) => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><AiOutlineProject/></a>
+      <a href="#portfolio" onClick={(e) => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><CgWorkAlt/></a>
       <a href="#contact" onClick={(e) => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiOutlinePhone/></a>
     </nav>
   )
