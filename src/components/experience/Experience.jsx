@@ -114,7 +114,7 @@ function Experience() {
               <div>
                 <h4>SQL</h4>
                  <div class="skill-container">
-                  <div class="bar fill1"></div>
+                  <div class="bar fill3"></div>
                 </div>
                 <div className="skill-label">
                   <small className="text-light">Beginner</small>
@@ -140,7 +140,7 @@ function Experience() {
               <div>
                 <h4>Django</h4>
                  <div class="skill-container">
-                  <div class="bar fill1"></div>
+                  <div class="bar fill3"></div>
                 </div>
                 <div className="skill-label">
                   <small className="text-light">Beginner</small>
@@ -153,7 +153,7 @@ function Experience() {
               <div>
                 <h4>Python</h4>
                  <div class="skill-container">
-                  <div class="bar fill1"></div>
+                  <div class="bar fill2"></div>
                 </div>
                 <div className="skill-label">
                   <small className="text-light">Beginner</small>
@@ -166,7 +166,7 @@ function Experience() {
               <div>
                 <h4>C++</h4>
                  <div class="skill-container">
-                  <div class="bar fill1"></div>
+                  <div class="bar fill2"></div>
                 </div>
                 <div className="skill-label">
                   <small className="text-light">Beginner</small>

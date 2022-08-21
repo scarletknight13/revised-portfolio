@@ -33,10 +33,7 @@ function About() {
               <small>5+ Projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Odit, unde natus odio culpa quos quia molestias iusto facere consequuntur
-            doloremque numquam tempora vero, explicabo dicta voluptate
-            praesentium voluptatibus ea. Atque.
+          <p>Software engineer, computer scientist, and problem solver. I have been studying and practicing computer science for the last three years and I really enjoy the science part of computer science. Proficient in C++ and Full Stack softwares and looking to use my experience and problem solving skills to create solutions that will better people's lives.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
