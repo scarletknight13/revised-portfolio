@@ -1,0 +1,117 @@
+.experience-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.experience-container > div{
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+
+}
+.experience-container > div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.experience-container > div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.experience-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.experience-details{
+   display: flex;
+   gap: 0.5rem; 
+}
+.experience-details-icon{
+    font-size: 2.1em;
+    margin-top: 6px;
+    color: var(--color-primary)
+}
+.skill-container{
+    width: 10vw;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.334);
+    /* border: 0.25px solid lightgray; */
+}
+.skill-label{
+    display: flex;
+    justify-content: space-between;
+}
+.bar {
+    height: 100%;
+    background: green;
+/*     margin-top: 8px; */
+    box-shadow: 0 0 3px rgba(192,192,192,0.9);
+    /* animation: fill 6s infinite, colors 5s infinite alternate; */
+}
+
+.bar.fill1 {
+  animation: fill-1 6s infinite;
+}
+
+.bar.fill2 {
+   animation:  fill-2 6s infinite;
+}
+
+
+.bar.fill3 {
+   animation:  fill-3 6s infinite;
+}
+
+
+@keyframes fill-1 {
+  0%   { width: 0; }
+  33% { width: 58%; }
+  100% {width: 58%;}
+}
+
+@keyframes fill-2 {
+  0%   { width: 0; }
+  33%  { width: 95%;}
+  100% { width: 95%; }
+}
+
+@keyframes fill-3 {
+  0%   { width: 0; }
+  33%  { width: 35%;}
+  100% { width: 35%; }
+}
+
+@media screen and (max-width: 1024px){
+    .experience-container{
+        grid-template-columns: 1fr;
+    }
+    .experience-container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience-content{
+        padding: 1rem;
+    }
+    .skill-container{
+        width: 15vh;
+    }
+}
+@media screen and (max-width: 600px){
+    .experience-container{
+        gap: 1rem;
+    }
+    .experience-container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .skill-container{
+        width: 12vh;
+    }
+    .experience-details-icon{
+        font-size: 1.5em;
+    }
+}
